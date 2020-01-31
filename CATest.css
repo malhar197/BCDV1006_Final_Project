@@ -1,0 +1,40 @@
+body {
+	background-image: linear-gradient(to right, rgba(0,62,83,0),rgba(0,62,83,1));
+}
+
+table{
+	border: 1px black solid;
+	/*background-color: #f7f5f5;*/
+	float: left;
+	border-collapse: collapse;
+	padding: 3px;
+}
+
+th {
+	border-bottom: 1px black solid;
+}
+td {
+	border: 1px black solid;
+	padding: 10px;
+	font-size: 15px;
+	color: black;
+}
+
+h1 {
+	color: #2e2e2e;
+	text-shadow: 2px 1px #f7f5f5;
+}
+
+main {
+	float: left;
+	width: 60%;
+	border-right: 5px gold double;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img {
+	float: right;
+	border: 2px gold;
+	padding: 5px;
+}
