@@ -8,6 +8,10 @@ body {
 	top: 5em;*/
 }
 
+.footer {
+	font-size: 75%
+}
+
 .navbar {
 	position: relative;
 	left: 1em;
