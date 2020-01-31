@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/CATest.css">
+    <link rel="stylesheet" type="text/css" href="styles\style.css">
+    <script type="text/javascript" src="scripts/scriptA.js"></script>
+    <title>CodexArma</title>
+</head>
+<body>
+    <div class = "navbar">
+        <a href="index.html">Main Page </a>
+        <a href="CodexArmastakeholders.html">Stakeholders</a>
+        <a href="Consensus_Mechanism.html">Consensus Mechanism </a>
+        <a href="Revenue_Streams.html">Revenue Streams </a>
+        <a href="flowchart-processA.html">Process Diagram A</a>
+        <a href="flowchart-processB.html">Process Diagram B</a>
+    </div>
+<h1>Welcome to CodexArma</h1>
+<div class="container">
+    <h1>Proccess Diagram</h1>
+    <h2>From Factory to Market</h2>
+    <table class="animationTable">
+        <tr>
+            <td colspan="5">
+                <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="icons/vendorByLogoMakr.com.png" alt="manufactLogo" class="tableIcon">
+                <img src="icons/gunUserByLogoMakr.com.png" alt="manufactLogo" class="tableIcon">
+            </td>
+            <td colspan="3">
+                <img src="icons/gunsSoldByLogoMakr.com.png" alt="req" class="movingIcon position1" id="reqIcon1">
+            </td>
+            <td>
+                <img src="icons/govByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+                <img src="icons/multiLangByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="icons/vendorByLogoMakr.com.png" alt="manufactLogo" class="tableIcon">
+                <img src="icons/c2cSailByLogoMakr.com.png" alt="manufactLogo" class="tableIcon">
+            </td>
+            <td colspan="3">
+                <img src="icons/gunsSoldByLogoMakr.com.png" alt="req" class="movingIcon position1" id="reqIcon2">
+            </td>
+            <td>
+                <img src="icons/govByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+                <img src="icons/multiLangByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="icons/gunUserByLogoMakr.com.png" alt="distLogo" class="tableIcon" >
+                <img src="icons/disposalByLogoMakr.com.png" alt="req" class="tableIcon" >
+            </td>
+            <td colspan="3">
+                <img src="icons/distGunsSoldByLogoMakr.com.png" alt="req" class="movingIcon position1" id="reqIcon3">
+            </td>
+            <td>
+                <img src="icons/govByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+                <img src="icons/multiLangByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+            </td>
+        </tr>
+        <tr>
+            <td>Steps:</td>
+            <td id='statusA1' colspan="4"></td>
+        </tr>
+    </table>
+    <hr>
+    <button onclick="userVendorTx()" id="userVendorTxBtn">Buy a gun</button>
+    <button onclick="c2cSale()" id="c2cBtn">C2C sale</button>
+    <button onclick="return4Disposal()" id="retDisBtn">Return for disposal</button>
+    <button onclick="resetA1()" id="resetBtn">Reset</button>
+<hr>
+<hr>
+    <h2>Guns Disposal</h2>
+    <table class="animationTable">
+        <tr>
+            <td colspan="5">
+                <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="icons/govByLogoMakr.com.png" alt="manufactLogo" class="tableIcon">
+            </td>
+            <td colspan="3">
+                <img src="icons/toRecByLogoMakr.com.png" alt="req" class="movingIcon position1" id="reqIcon4">
+            </td>
+            <td>
+                <img src="icons/disposalFirmByLogoMakr.com.png" alt="manufact logo" class="tableIcon">
+            </td>
+        </tr>
+        <tr>
+            <td>Steps:</td>
+            <td id='statusA2' colspan="4"></td>
+        </tr>
+    </table>
+    <hr>
+    <button onclick="govDispose()" id="disposeBtn">Guns Disposal</button>
+    <button onclick="resetA2()" id="resetBtn">Reset</button>
+</div>
+</body>
+</html>

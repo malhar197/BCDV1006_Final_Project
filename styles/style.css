@@ -1,0 +1,48 @@
+#container {
+    width: 100%;
+    background-image: ;
+}
+
+.animationTable {
+    margin-left:5%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 90%;
+    table-layout: fixed;
+    overflow: hidden;
+}
+
+.tableIcon {
+    width: 40%;
+    height: 20%;
+}
+
+.tableIconBG {
+    width: 20%;
+    height: 20%;
+    margin-left: 39%;
+}
+
+.blocks{
+    width: 3%;
+    height: 12%;
+    margin-left: 30%;
+}
+
+.movingIcon {
+    width: 10%;
+    height: 20%;
+    transition: 4s;
+}
+
+.position1 {
+    margin-left:8%;
+}
+
+.position2 {
+    margin-left:88%;
+}
+
+.position3 {
+    margin-left:43%;
+}
