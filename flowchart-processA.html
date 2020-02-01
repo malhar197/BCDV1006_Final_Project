@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="styles/CATest.css">
-    <link rel="stylesheet" type="text/css" href="styles\style.css">
-    <script type="text/javascript" src="scripts/scriptA.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/scriptA.js"></script>
     <title>CodexArma</title>
 </head>
 <body>
@@ -16,14 +16,38 @@
         <a href="flowchart-processB.html">Process Diagram B</a>
     </div>
 <h1>Welcome to CodexArma</h1>
-<div class="container">
+    <aside>
+        <h3>From Factory to Market</h3>
+        <ol>
+            <li>Manufacturer makes the guns and requests gun registration</li>
+            <li>Government registers the guns and commits the data</li>
+            <li>Manufacturer sends guns to distributer and requests status change</li>
+            <li>Government save the changes and commits the data</li>
+            <li>Guns are sold by distributer and request is sent to Government for changes</li>
+            <li>Government save the changes and commits the data</li>
+        </ol>
+        <br>
+        <br>
+        <h3>Individual permits /Background Checks</h3>
+        <ol>
+            <li>Users and clients request gun permits</li>
+            <li>Government performs background checks and issue permits and commits  </li>
+        </ol>
+    </aside>
+
+    <main>
+        <div class="container">
     <h1>Proccess Diagram</h1>
     <h2>From Factory to Market</h2>
     <table class="animationTable">
         <tr>
-            <td colspan="5">
+            <td></td>
+            <td></td>
+            <td>
                 <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
             </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>
@@ -70,18 +94,22 @@
         </tr>
     </table>
     <hr>
-    <button onclick="regGun()" id="gunRegBtn">Register Gun</button>
-    <button onclick="gunsSold()" id="toDistBtn">Sell to Disterbuter</button>
-    <button onclick="gunsSoldToShops()" id="toShopsBtn">Sell to Shops</button>
-    <button onclick="resetA1()" id="resetBtn">Reset</button>
+    <button onclick="regGun()" >Register Gun</button>
+    <button onclick="gunsSold()" >Sell to Disterbuter</button>
+    <button onclick="gunsSoldToShops()" >Sell to Shops</button>
+    <button onclick="resetA1()">Reset</button>
 <hr>
 <hr>
     <h2>Individual permits /Background Checks</h2>
     <table class="animationTable">
         <tr>
-            <td colspan="5">
+            <td></td>
+            <td></td>
+            <td>
                 <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
             </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>
@@ -100,8 +128,9 @@
         </tr>
     </table>
     <hr>
-    <button onclick="gunPermitReq()" id="gunRegBtn">Request Gun Permit</button>
-    <button onclick="resetA2()" id="resetBtn">Reset</button>
+    <button onclick="gunPermitReq()">Request Gun Permit</button>
+    <button onclick="resetA2()">Reset</button>
 </div>
+    </main>
 </body>
 </html>

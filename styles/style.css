@@ -1,13 +1,10 @@
 #container {
     width: 100%;
-    background-image: ;
 }
 
 .animationTable {
-    margin-left:5%;
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 90%;
+    margin-left:10%;
+    width: 80%;
     table-layout: fixed;
     overflow: hidden;
 }
@@ -18,8 +15,8 @@
 }
 
 .tableIconBG {
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     margin-left: 39%;
 }
 

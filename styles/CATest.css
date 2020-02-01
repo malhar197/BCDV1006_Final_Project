@@ -63,7 +63,7 @@ aside {
 	/*display: block;*/
 	/*position: absolute;*/
 	float: right;
-	width: 30%;
+	width: 35%;
 	padding-left: 0.5em;
 	/*border-left: 0.5em gold double;*/
 	display: flex;
@@ -73,8 +73,8 @@ aside {
 	border: 0.25em gold double;
 }
 
-img {
-	/*float: right;*/
+
+/*img {
 	border: 0.5em gold;
 	padding: 1em;
-}
+}*/

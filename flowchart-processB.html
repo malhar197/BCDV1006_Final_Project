@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="styles/CATest.css">
-    <link rel="stylesheet" type="text/css" href="styles\style.css">
-    <script type="text/javascript" src="scripts/scriptA.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/scriptA.js"></script>
     <title>CodexArma</title>
 </head>
 <body>
@@ -16,14 +16,41 @@
         <a href="flowchart-processB.html">Process Diagram B</a>
     </div>
 <h1>Welcome to CodexArma</h1>
+    <aside>
+        <h3>In the Market</h3>
+        <ol>
+            <li>Users and clients try to purchase a gun from vendor</li>
+            <li>Vendor checks customer permits / Verify eligibility and request for status change</li>
+            <li>Government by smart contract save the changes and commits the data</li>
+            <li>Users and clients changing ownership through vendor</li>
+            <li>Vendor checks customer permits and request for status change</li>
+            <li>Government save the changes and commits the dataa</li>
+            <li>Users and clients deliver guns for disposal to government</li>
+            <li>Government takes the guns and save the changes and commits the data</li>
+        </ol>
+        <br>
+        <br>
+        <h3>Disposal</h3>
+        <ol>
+            <li>Government chooses a disposal firm for gun disposal and handle the guns</li>
+            <li>Government save changes and commit</li>
+            <li>Disposal firm disposes the guns and requests for status change</li>
+            <li>Government save changes and commit</li>
+        </ol>
+    </aside>
+    <main>
 <div class="container">
     <h1>Proccess Diagram</h1>
-    <h2>From Factory to Market</h2>
+    <h2>In the Market</h2>
     <table class="animationTable">
         <tr>
-            <td colspan="5">
+            <td></td>
+            <td></td>
+            <td>
                 <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
             </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>
@@ -70,18 +97,22 @@
         </tr>
     </table>
     <hr>
-    <button onclick="userVendorTx()" id="userVendorTxBtn">Buy a gun</button>
-    <button onclick="c2cSale()" id="c2cBtn">C2C sale</button>
-    <button onclick="return4Disposal()" id="retDisBtn">Return for disposal</button>
-    <button onclick="resetA1()" id="resetBtn">Reset</button>
+    <button onclick="userVendorTx()" >Buy a gun</button>
+    <button onclick="c2cSale()">C2C sale</button>
+    <button onclick="return4Disposal()" >Return for disposal</button>
+    <button onclick="resetA1()" >Reset</button>
 <hr>
 <hr>
     <h2>Guns Disposal</h2>
     <table class="animationTable">
         <tr>
-            <td colspan="5">
+            <td></td>
+            <td></td>
+            <td>
                 <img src="icons/block1ByLogoMakr.com.png" alt="manufact logo" class="tableIconBG">
             </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>
@@ -100,8 +131,9 @@
         </tr>
     </table>
     <hr>
-    <button onclick="govDispose()" id="disposeBtn">Guns Disposal</button>
-    <button onclick="resetA2()" id="resetBtn">Reset</button>
+    <button onclick="govDispose()" >Guns Disposal</button>
+    <button onclick="resetA2()" >Reset</button>
 </div>
+    </main>
 </body>
 </html>
