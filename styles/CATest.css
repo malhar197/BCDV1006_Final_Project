@@ -53,6 +53,7 @@ main {
 	padding-left: 2em;
 	padding-right: 1em;
 	overflow: auto;
+	min-height: 500px;
 }
 
 
